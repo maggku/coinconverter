@@ -29,6 +29,7 @@ div{
     height: 380px;
     flex-shrink: 0;
     border-radius: 24px;
+    margin: 191px; 339px, 335px, 339px;
     background: #9E9E9E;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
