@@ -1,6 +1,17 @@
-# Cryptocurrency Coin Converter
+# Berry Swap  
 
-A simple and responsive cryptocurrency coin converter built using **HTML**, **CSS**, and **JavaScript**. This project allows users to convert amounts between different cryptocurrencies and fiat currencies, providing a user-friendly interface and real-time conversion rates.
+Berry Swap is a cryptocurrency converter that lets you seamlessly exchange crypto altcoins and traditional currencies like **USD**, **EUR**, and **GBP**. With real-time exchange rates, you can quickly calculate how much of a specific coin you can buy. A **"BUY"** button conveniently redirects you to a crypto exchange to finalize your purchase.
+
+## Key Components  
+
+### Dropdown Menus  
+Users can effortlessly select cryptocurrencies or fiat currencies in **"Convert From"** and **"Convert To"** dropdown menus.  
+
+### Input Fields  
+A dedicated input field lets users specify the amount they wish to convert.  
+
+### Exchange Rate Display  
+Real-time exchange rates are dynamically displayed (e.g., `1 BTC = X ETH`), ensuring users have accurate and up-to-date information.  
 
 ---
 
@@ -35,9 +46,11 @@ Key user stories include:
 - [View the Development Details](./development.md)
 
 ### Technologies Used:
-- **HTML5**: For the structure of the web page.
-- **CSS3**: For styling and responsive design.
-- **JavaScript**: For dynamic functionalities like conversions and API integration.
+- **Figma**: For the designing and prototyping.
+- **HTML5**: Visual Studio Code, For the structure of the web page.
+- **CSS3**: Visual Studio Code, For styling and responsive design.
+- **JavaScript**: Visual Studio Code, 
+.......For dynamic functionalities like conversions and API integration.
 
 ---
 
