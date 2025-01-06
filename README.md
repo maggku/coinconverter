@@ -8,13 +8,14 @@ A simple and responsive cryptocurrency coin converter built using **HTML**, **CS
 
 1. [User Stories](#user-stories)
 2. [Development Process](#development-process)
-3. [Design](#design)
-4. [Final View](#final-view)
-5. [Testing](#testing)
-6. [Known Bugs](#known-bugs)
-7. [Deployment](#deployment)
-8. [Future Enhancements](#future-enhancements)
-9. [Acknowledgments](#acknowledgments)
+3. [Wireframes](#wireframes)
+4. [Design](#design)
+5. [Final View](#final-view)
+6. [Testing](#testing)
+7. [Known Bugs](#known-bugs)
+8. [Deployment](#deployment)
+9. [Future Enhancements](#future-enhancements)
+10. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -37,6 +38,15 @@ Key user stories include:
 - **HTML5**: For the structure of the web page.
 - **CSS3**: For styling and responsive design.
 - **JavaScript**: For dynamic functionalities like conversions and API integration.
+
+---
+
+## Wireframes
+
+- [View the Wireframes](./wireframes.md)
+
+### Technologies Used:
+- **Figma**: For the designing process.
 
 ---
 
