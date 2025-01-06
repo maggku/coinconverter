@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="images/css/style.css">
+    <!-- <link rel="stylesheet" href="images/css/style.css"> -->
     <title>BerrySwap</title>
 </head>
 <body>
     <nav></nav>
-    <div></div>
+    <div class="converter-container">
+        <div class="converter-row">
+            <label for="from-token">From:</label>
+            <div class="converter-group">
+                <input type="number" id="from-amount" placeholder="1000" min="0"/>
+                <select id="from-token">
+                    <option value="usd">USD</option>
+                    <option value="gbp">GBP</option>
+                    <option value="yen">YEN</option>
+                </select>
+            </div>
+        </div>
+        <div class="converter-row">
+            <label for="to-token">To:</label>
+            <div class="converter-group">
+                <input type="number" id="to-amount" placeholder="1000" min="0" disabled/>
+                <select id="to-token">
+                    <option value="btc">BTC</option>
+                    <option value="eth">ETH</option>
+                    <option value="ada">ADA</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <button id="convert-button">Buy</button>
     <footer></footer>
     
 </body>
