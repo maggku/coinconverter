@@ -43,7 +43,8 @@ Key user stories include:
 
 ## Development Process
 
-- [View the Development Details](./development.md)
+- [Other Crypto Curenct Converters on the market](images/other-cryptoconverters.png)  
+- [Design Inspiration](images/design-inspiration.png)
 
 ### Technologies Used:
 - **Figma**: For the designing and prototyping.
