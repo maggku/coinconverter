@@ -43,7 +43,7 @@ Key user stories include:
 
 ## Wireframes
 
-- [View the Wireframes](./wireframes.md)
+- [View the Wireframes](./images/wireframes.png)
 
 ### Technologies Used:
 - **Figma**: For the designing process.
@@ -93,7 +93,7 @@ Here’s a preview of the final page:
 
 ## Deployment
 
-- [View Deployment Instructions](./deployment.md)
+- [View Deployment Instructions](./images/wireframes.png.)
 
 ### Steps Taken:
 1. Hosted the project on **GitHub Pages**.
