@@ -11,7 +11,7 @@ Users can effortlessly select cryptocurrencies or fiat currencies in **"Convert 
 A dedicated input field lets users specify the amount they wish to convert.  
 
 ### Exchange Rate Display  
-Real-time exchange rates are dynamically displayed (e.g., `1 BTC = X ETH`), ensuring users have accurate and up-to-date information.  
+Real-time exchange rates are dynamically displayed (e.g., 1 BTC = X ETH), ensuring users have accurate and up-to-date information.  
 
 ---
 
