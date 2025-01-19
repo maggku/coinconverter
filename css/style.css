@@ -95,7 +95,7 @@ label {
     background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"%3E%3Cpath d="M7 10l5 5 5-5H7z" fill="%23333"/%3E%3C/svg%3E'); /* Custom arrow SVG */
     background-repeat: no-repeat; /* Prevent arrow from repeating */
     background-position: right 15px center; /* Position the arrow with margin */
-    background-size: 12px 12px; /* Adjust size of the arrow */
+    background-size: 14px 14px; /* Adjust size of the arrow */
     */
 }
 
