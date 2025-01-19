@@ -112,6 +112,7 @@ label {
 
 #convert-button {
     display: flex;
+    width: 100%;
     width: 382px;
     padding: 22px 0px 23px 0px;
     margin-top: 48px;
