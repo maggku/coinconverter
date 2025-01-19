@@ -38,7 +38,8 @@ label {
 
 #from-amount {
     display: flex;
-    padding: 12px 216px 13px 20px;
+    width: 274px;
+    padding: 12px 20px 13px 20px;
     margin-right: 25px;
     align-items: center;
     border-radius: 24px;
@@ -65,7 +66,7 @@ label {
 #to-amount {
     display: flex;
     width: 274px;
-    padding: 12px 216px 13px 20px;
+    padding: 12px 20px 13px 20px;
     margin-right: 25px;
     align-items: center;
     border-radius: 24px;
