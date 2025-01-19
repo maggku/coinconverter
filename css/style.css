@@ -64,6 +64,7 @@ label {
 
 #to-amount {
     display: flex;
+    width: 274px;
     padding: 12px 216px 13px 20px;
     margin-right: 25px;
     align-items: center;
@@ -102,6 +103,29 @@ label {
 
 .converter-group {
     display: flex;
+}
+
+.transfer-icon {
+    display: center;
+}
+
+#convert-button {
+    display: flex;
+    width: 382px;
+    padding: 22px 0px 23px 0px;
+    margin-top: 48px;
+    margin-bottom: 34px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #3E3D3D;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 footer{
     bottom: 0;
