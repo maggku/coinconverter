@@ -24,12 +24,15 @@ nav {
 }
 
 .converter-container {
+    display: grid;
+    place-items: center;
     max-width: 600px;
     margin: 191px auto;
     padding: 34px;
     border-radius: 32px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
 }
 label {
     font-size: 12px;      
@@ -108,8 +111,10 @@ label {
 
 .transfer-icon {
     display: flex;
-    display: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    margin-top: 15px;
 }
 
 #convert-button {
