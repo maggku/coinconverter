@@ -58,6 +58,11 @@ li {
 
  }
 
+ #toggle {
+    scale: 120%;
+    margin-top: 5px;
+ }
+
 .converter-container {
     display: grid;
     place-items: center;
