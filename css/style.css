@@ -87,7 +87,18 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    border: 0px;
+}
+
+.converter-group input {
+    color: #161616;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #EEEAF4;
+    outline: none;
 }
 
 label {
