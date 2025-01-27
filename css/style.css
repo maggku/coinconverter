@@ -20,13 +20,33 @@ nav {
     display: flex;
     position: fixed;
     justify-content: space-between;
-    padding: 20px 20px;
     z-index: 1000;
+}
+
+nav p {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 #logo {
     scale: 120%;
 }
+
+.logo-section {
+    display: flex;
+    gap: 24px;
+}
+
+ul {
+    display:flex;
+    gap: 70px;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 700;
+
+ }
 
 .converter-container {
     display: grid;
