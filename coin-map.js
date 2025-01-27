@@ -1,4 +1,4 @@
-const coinMap = [
+export const coinMap = [
     {
       "id": "01coin",
       "symbol": "zoc",

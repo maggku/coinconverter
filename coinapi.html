@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">Loading...</div>
+    <script>
+      const url = 'https://api.coingecko.com/api/v3/coins/list';
+      const options = {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+          'x-cg-demo-api-key': 'CG-xLYwmbrB1pePLmacdCZbotTz'
+        }
+      };
+
+      fetch(url, options)
+        .then(res => res.json())  // Convert response to JSON
+        .then(json => {
+            document.getElementById("content").innerText = JSON.stringify(json.slice(0, 50), null, 2);
+        })
+        .catch(err => {
+            document.getElementById("content").innerText = "Error fetching data.";
+            console.error(err);
+        });  
+    </script>
+</body>
+</html>

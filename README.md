@@ -122,8 +122,8 @@ Live site: [Cryptocurrency Coin Converter](https://your-github-username.github.i
 
 - API Provider: [CoinGecko API](https://www.coingecko.com/en/api) for real-time exchange rates.
 - Resources and tutorials from [MDN Web Docs](https://developer.mozilla.org/) and [W3Schools](https://www.w3schools.com/).
-- Special thanks to mentors, friends, and family for their guidance and feedback.
 
 ---
+## External Code Snippets
 
-Thank you for checking out my first web development project! Feedback and contributions are welcome. 😊
+- [Coingeco code from the API Developer Page](coingeco-code.md)
