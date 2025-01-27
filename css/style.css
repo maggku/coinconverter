@@ -38,7 +38,7 @@ nav p {
 
 ul {
     display:flex;
-    gap: 64px;
+    gap: 24px;
     margin-right: 64px;
 }
 
