@@ -24,6 +24,10 @@ nav {
     z-index: 1000;
 }
 
+#logo {
+    scale: 120%;
+}
+
 .converter-container {
     display: grid;
     place-items: center;
