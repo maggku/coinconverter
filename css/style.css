@@ -29,6 +29,10 @@ nav p {
     font-weight: 700;
 }
 
+#logo {
+    margin-bottom: 5px;
+}
+
 .logo-section {
     display: flex;
     align-items: center;
@@ -149,6 +153,7 @@ label {
 
 .converter-group {
     display: flex;
+    font-weight: 700;
 }
 
 .transfer-icon {
