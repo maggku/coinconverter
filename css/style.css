@@ -29,10 +29,6 @@ nav p {
     font-weight: 700;
 }
 
-#logo {
-    scale: 120%;
-}
-
 .logo-section {
     display: flex;
     align-items: center;
@@ -42,7 +38,7 @@ nav p {
 
 ul {
     display:flex;
-    gap: 70px;
+    gap: 64px;
     margin-right: 64px;
 }
 
@@ -51,6 +47,14 @@ li {
     font-weight: 700;
     text-decoration: none;
     list-style: none;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    color: #161616;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 13px;
 
  }
 
