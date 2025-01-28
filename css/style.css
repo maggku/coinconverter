@@ -67,9 +67,8 @@ li {
 
  }
 
- #toggle {
-    scale: 120%;
-    margin-top: 15px;
+ .form-check-input{
+    background-color: #161616;
  }
 
 .converter-container {
