@@ -67,9 +67,15 @@ li {
 
  }
 
- .form-check-input{
+.form-check-input {
     background-color: #161616;
- }
+}
+
+/* Checked (switched on) background */
+.form-check-input:checked {
+    background-color: #191b1c; /* After switching */
+    border-color: #dc50bd; /* To match the background */
+}
 
 .converter-container {
     display: grid;
