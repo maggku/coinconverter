@@ -3,6 +3,7 @@ body {
     padding: 0;
     justify-content: center;
     align-items: center;
+    place-items: center;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -66,6 +67,10 @@ li {
     line-height: 76px;
 
  }
+
+.form-check {
+    margin-top: 25px;
+}
 
 .form-check-input {
     background-color: #161616;

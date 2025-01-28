@@ -1,112 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap JS link-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-
-
-<title>BerrySwap</title>
-</head>
-<body>
-    <script type="module" src="script.js"></script>
-
-
-    
-    <nav>
-        <div class="logo-section">
-            <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="36" height="40" viewBox="0 0 36 40" fill="none">
-                <mask id="path-1-inside-1_225_112" fill="white">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M30.8296 18.3746C26.7396 18.6603 22.7582 16.3086 21.1582 12.2963C19.7935 8.87433 20.5169 5.13678 22.7223 2.49365C26.8122 2.20797 30.7936 4.55972 32.3937 8.57201C33.7583 11.994 33.0349 15.7315 30.8296 18.3746Z"/>
-                </mask>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M30.8296 18.3746C26.7396 18.6603 22.7582 16.3086 21.1582 12.2963C19.7935 8.87433 20.5169 5.13678 22.7223 2.49365C26.8122 2.20797 30.7936 4.55972 32.3937 8.57201C33.7583 11.994 33.0349 15.7315 30.8296 18.3746Z" fill="white"/>
-                <path d="M30.8296 18.3746L30.8993 19.3722L31.3244 19.3425L31.5974 19.0153L30.8296 18.3746ZM22.7223 2.49365L22.6526 1.49609L22.2275 1.52578L21.9544 1.853L22.7223 2.49365ZM30.7599 17.3771C27.0911 17.6333 23.5214 15.5226 22.087 11.9259L20.2293 12.6667C21.9951 17.0946 26.3882 19.6873 30.8993 19.3722L30.7599 17.3771ZM22.087 11.9259C20.8638 8.85841 21.5105 5.50683 23.4901 3.13431L21.9544 1.853C19.5233 4.76672 18.7233 8.89025 20.2293 12.6667L22.087 11.9259ZM22.792 3.49122C26.4607 3.23496 30.0305 5.34572 31.4648 8.94243L33.3225 8.20159C31.5568 3.77373 27.1637 1.18098 22.6526 1.49609L22.792 3.49122ZM31.4648 8.94243C32.6881 12.0099 32.0413 15.3615 30.0617 17.734L31.5974 19.0153C34.0285 16.1016 34.8285 11.978 33.3225 8.20159L31.4648 8.94243Z" fill="black" mask="url(#path-1-inside-1_225_112)"/>
-                <circle cx="15" cy="25.0001" r="14.5" fill="black" stroke="black"/>
-                <circle cx="8.5" cy="25.5001" r="6" fill="white" stroke="black"/>
-                <circle cx="21.5" cy="25.5001" r="6" fill="white" stroke="black"/>
-                <circle cx="4.5" cy="25.5001" r="2" fill="black" stroke="black"/>
-                <circle cx="17.5" cy="25.5001" r="2" fill="black" stroke="black"/>
-                <path d="M17 11.0953L23.0014 2.59445" stroke="black"/>
-              </svg>
-              <p>BerrySwap</p>
-        </div>
-        <ul>
-            <li data-bs-toggle="modal" data-bs-target="#exampleModal">earn</li>
-                <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap JS link-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- css/style.css link-->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Google Fonts / Poppins link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    <title>BerrySwap</title>
+    </head>
+    <body>
+        <script type="module" src="script.js"></script>
+    <!-- Nav-bar-->    
+        <nav>
+            <div class="logo-section">
+                <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="36" height="40" viewBox="0 0 36 40" fill="none">
+                    <mask id="path-1-inside-1_225_112" fill="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M30.8296 18.3746C26.7396 18.6603 22.7582 16.3086 21.1582 12.2963C19.7935 8.87433 20.5169 5.13678 22.7223 2.49365C26.8122 2.20797 30.7936 4.55972 32.3937 8.57201C33.7583 11.994 33.0349 15.7315 30.8296 18.3746Z"/>
+                    </mask>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M30.8296 18.3746C26.7396 18.6603 22.7582 16.3086 21.1582 12.2963C19.7935 8.87433 20.5169 5.13678 22.7223 2.49365C26.8122 2.20797 30.7936 4.55972 32.3937 8.57201C33.7583 11.994 33.0349 15.7315 30.8296 18.3746Z" fill="white"/>
+                    <path d="M30.8296 18.3746L30.8993 19.3722L31.3244 19.3425L31.5974 19.0153L30.8296 18.3746ZM22.7223 2.49365L22.6526 1.49609L22.2275 1.52578L21.9544 1.853L22.7223 2.49365ZM30.7599 17.3771C27.0911 17.6333 23.5214 15.5226 22.087 11.9259L20.2293 12.6667C21.9951 17.0946 26.3882 19.6873 30.8993 19.3722L30.7599 17.3771ZM22.087 11.9259C20.8638 8.85841 21.5105 5.50683 23.4901 3.13431L21.9544 1.853C19.5233 4.76672 18.7233 8.89025 20.2293 12.6667L22.087 11.9259ZM22.792 3.49122C26.4607 3.23496 30.0305 5.34572 31.4648 8.94243L33.3225 8.20159C31.5568 3.77373 27.1637 1.18098 22.6526 1.49609L22.792 3.49122ZM31.4648 8.94243C32.6881 12.0099 32.0413 15.3615 30.0617 17.734L31.5974 19.0153C34.0285 16.1016 34.8285 11.978 33.3225 8.20159L31.4648 8.94243Z" fill="black" mask="url(#path-1-inside-1_225_112)"/>
+                    <circle cx="15" cy="25.0001" r="14.5" fill="black" stroke="black"/>
+                    <circle cx="8.5" cy="25.5001" r="6" fill="white" stroke="black"/>
+                    <circle cx="21.5" cy="25.5001" r="6" fill="white" stroke="black"/>
+                    <circle cx="4.5" cy="25.5001" r="2" fill="black" stroke="black"/>
+                    <circle cx="17.5" cy="25.5001" r="2" fill="black" stroke="black"/>
+                    <path d="M17 11.0953L23.0014 2.59445" stroke="black"/>
+                </svg>
+                <p>BerrySwap</p>
+            </div>
+            <ul>
+                <li data-bs-toggle="modal" data-bs-target="#exampleModal">earn</li>
+                    <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                ...
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                            ...
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
                         </div>
-                        </div>
-                    </div>
-            <li>learn</li>
-            <li>connect wallet</li>
+                <li>learn</li>
+                <li>connect wallet</li>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                </div>
             </ul>
-
-            <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </nav>
+    <!-- Converter Container-->   
+        <div class="converter-container">
+            <div class="converter-row">
+                <label for="from-token">From:</label>
+                <div class="converter-group">
+                    <input type="number" id="from-amount" placeholder="1000" min="0"/>
+                    <select id="from-token">
+                        <option value="usd">USD</option>
+                        <option value="gbp">GBP</option>
+                        <option value="yen">YEN</option>
+                    </select>
+                </div>
             </div>
-    
-    </nav>
-
-
-
-
-
-    <div class="converter-container">
-        <div class="converter-row">
-            <label for="from-token">From:</label>
-            <div class="converter-group">
-                <input type="number" id="from-amount" placeholder="1000" min="0"/>
-                <select id="from-token">
-                    <option value="usd">USD</option>
-                    <option value="gbp">GBP</option>
-                    <option value="yen">YEN</option>
-                </select>
+            <div class="transfer-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5m-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5"/>
+                </svg>
             </div>
-        </div>
-        <div class="transfer-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5m-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5"/>
-            </svg>
-        </div>
-        <div class="converter-row">
-            <label for="to-token">To:</label>
-            <div class="converter-group">
-                <input type="number" id="to-amount" placeholder="1" min="0"/>
-                <select id="to-token">
-                    <option value="btc">BTC</option>
-                    <option value="eth">ETH</option>
-                    <option value="ada">ADA</option>
-                </select>
+            <div class="converter-row">
+                <label for="to-token">To:</label>
+                <div class="converter-group">
+                    <input type="number" id="to-amount" placeholder="1" min="0"/>
+                    <select id="to-token">
+                        <option value="btc">BTC</option>
+                        <option value="eth">ETH</option>
+                        <option value="ada">ADA</option>
+                    </select>
+                </div>
             </div>
-        </div>
-        <button id="convert-button">Buy</button>
-    </div>
-    
-    <footer></footer>
-    
-    
-</body>
+            <button id="convert-button">Buy</button>
+        </div>    
+        <footer></footer>   
+    </body>
 </html>
