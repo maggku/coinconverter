@@ -25,6 +25,7 @@ nav {
 }
 
 nav p {
+    font-family: Poppins, sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 76px;
