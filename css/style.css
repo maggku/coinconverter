@@ -67,6 +67,26 @@ li {
     line-height: 76px;
 
  }
+/* Custom border radius for modal */
+ .modal {
+    --bs-modal-border-radius: 1.5rem;
+ }
+
+ /* Custom width for modal */
+ .modal.show .modal-dialog {
+    width: 477px;
+    height: 500px;
+    max-width: 600px;
+}
+
+/* Content inside the modal*/
+.custom-modal .modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 
 .form-check {
     margin-top: 25px;
@@ -76,7 +96,7 @@ li {
     background-color: #161616;
 }
 
-/* Checked (switched on) background */
+
 .form-check-input:checked {
     background-color: #191b1c; /* After switching */
     border-color: #dc50bd; /* To match the background */
@@ -185,7 +205,7 @@ label {
     font-weight: 700;
     outline: none;
 
-    /* Add custom dropdown arrow 
+    /* Custom dropdown arrow 
     appearance: none;
     -webkit-appearance: none; /* Safari/Chrome compatibility */
     -moz-appearance: none; /* Firefox compatibility */
