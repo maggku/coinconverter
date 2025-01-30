@@ -13,6 +13,12 @@ body {
     background: linear-gradient(180deg, #EEA3D0 0%, #A1C1F6 100%);
 }
 
+/* Dark Mode */
+    body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
 nav {
     height: 76px;
     top: 0;
@@ -106,6 +112,9 @@ li {
     background-color: #191b1c; /* After switching */
     border-color: #dc50bd; /* To match the background */
 }
+
+
+
 
 .converter-container {
     display: grid;

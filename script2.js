@@ -1,3 +1,16 @@
+// Get the Bootstrap toggle switch element
+const toggleSwitch = document.getElementById("flexSwitchCheckDefault");
+
+// Function to toggle dark mode
+function toggleDarkMode() {
+    console.log("Toggling dark mode...");// Chcking in console if the function is called correctly
+    document.body.classList.toggle("dark-mode");
+}
+
+// Check if toggle switch is clicked
+toggleSwitch.addEventListener("change", toggleDarkMode);
+
+
 const fromToken = document.getElementById("from-token");
 const fromAmount = document.getElementById("from-amount");
 const toToken = document.getElementById("to-token");
@@ -20,7 +33,7 @@ async function fetchExchangeRates() {
             jpy: { btc: 1 / data.bitcoin.jpy, eth: 1 / data.ethereum.jpy, ada: 1 / data.cardano.jpy }
         };
 
-        console.log("Live exchange rates:", exchangeRates); // Debugging: Checking API data in the console
+        console.log("Live exchange rates:", exchangeRates); // Logging exchangeRates to the console for debugging if needed.
 
     } catch (error) {
         console.error("Error fetching exchange rates:", error);
