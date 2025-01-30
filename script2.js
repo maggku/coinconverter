@@ -43,6 +43,8 @@ function getTheConversion() {
     }
 }
 
+// Run function fetchExchangeRates once the page loads
+fetchExchangeRates();
 
 // Run function getTheConversion when input changes
 fromAmount.addEventListener("input", getTheConversion);
