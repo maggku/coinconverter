@@ -87,7 +87,7 @@ li {
 
 
 .form-check-input:checked {
-    background-color: #191b1c; /* After switching */
+    background-color: #161616; /* After switching */
     border-color: #dc50bd; /* To match the background */
 }
 
@@ -251,7 +251,7 @@ footer{
     left: 0;
     height: 194px;
     width: 100%;
-    background-color: rgb(16, 2, 21);
+    background-color:  #161616;
     display: flex;
 
 }
