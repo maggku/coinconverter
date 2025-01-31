@@ -97,7 +97,7 @@ li {
 .converter-container {
     display: grid;
     place-items: center;
-    max-width: 600px;
+    max-width: 474px;
     margin: 191px auto;
     padding: 34px;
     border-radius: 32px;
@@ -246,7 +246,7 @@ footer{
     left: 0;
     height: 194px;
     width: 100%;
-    background-color: rgb(84, 12, 110);
+    background-color: rgb(16, 2, 21);
     display: flex;
 
 }
