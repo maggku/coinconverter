@@ -94,10 +94,9 @@ li {
 /* Custom border radius for modal */
 .modal {
     --bs-modal-border-radius: 1.5rem;
-    display: grid;
-    place-items: center;
-    z-index: 1100;
  }
+
+
 
 .converter-container {
     display: grid;
