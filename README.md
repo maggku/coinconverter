@@ -1,6 +1,6 @@
 # Berry Swap  
 
-Berry Swap is a cryptocurrency converter that lets you seamlessly exchange crypto altcoins and traditional currencies like **USD**, **EUR**, and **GBP**. With real-time exchange rates, you can quickly calculate how much of a specific coin you can buy. A **"BUY"** button conveniently redirects you to a crypto exchange to finalize your purchase.
+Berry Swap is a cryptocurrency converter that lets you seamlessly exchange crypto altcoins and traditional currencies like **USD**, **EUR**, and **GBP**. BerrySwap is a project designed for beginners in cryptocurrency and blockchain. Experienced users usually buy tokens at the best price on crypto exchanges. However, BerrySwap allows quick token swaps, which is important in the fast-moving and risky crypto market. For this project, I chose a simpler approach, letting users trade real currency for popular cryptocurrencies like Bitcoin (BTC) and Ethereum (ETH). This makes it easier for newcomers to get started in crypto without dealing with complex exchanges.
 
 ## Key Components  
 
@@ -11,7 +11,7 @@ Users can effortlessly select cryptocurrencies or fiat currencies in **"Convert 
 A dedicated input field lets users specify the amount they wish to convert.  
 
 ### Exchange Rate Display  
-Real-time exchange rates are dynamically displayed (e.g., 1 BTC = X ETH), ensuring users have accurate and up-to-date information.  
+Real-time exchange rates are dynamically displayed (e.g., 1 BTC = X USD), ensuring users have accurate and up-to-date information.  
 
 ---
 
