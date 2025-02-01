@@ -1,6 +1,6 @@
 # Berry Swap     ![Logo](images/coinconverter-favicon2.png)
 
-Berry Swap is a cryptocurrency converter that lets you seamlessly exchange crypto altcoins and traditional currencies like **USD**, **EUR**, and **GBP**.BerrySwap is a project designed for beginners in cryptocurrency and blockchain. Experienced users usually buy tokens at the best price on crypto exchanges. If BerrySwap were to replicate projects like PancakeSwap, it would allow quick token swaps, which is important in the fast-moving and risky crypto market. For this project, I chose a simpler approach, letting users trade real currency for popular cryptocurrencies like Bitcoin (BTC) and Ethereum (ETH). This makes it easier for newcomers to get started in crypto without dealing with complex exchanges.
+Berry Swap is a cryptocurrency converter that lets you seamlessly exchange crypto altcoins and traditional currencies like **USD**, **JPY**, and **GBP**.BerrySwap is a project designed for beginners in cryptocurrency and blockchain. Experienced users usually buy tokens at the best price on crypto exchanges. If BerrySwap were to replicate projects like PancakeSwap, it would allow quick token swaps, which is important in the fast-moving and risky crypto market. For this project, I chose a simpler approach, letting users trade real currency for popular cryptocurrencies like Bitcoin (BTC) and Ethereum (ETH). This makes it easier for newcomers to get started in crypto without dealing with complex exchanges.
 
 ## Key Components  
 
