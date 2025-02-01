@@ -59,6 +59,8 @@ function getTheConversion() {
 // Run function fetchExchangeRates once the page loads
 fetchExchangeRates();
 
+getTheConversion();
+
 // Run function getTheConversion when input changes
 fromAmount.addEventListener("input", getTheConversion);
 fromToken.addEventListener("change", getTheConversion);
