@@ -40,9 +40,9 @@
                 <p>BerrySwap</p>
             </div>
             <ul>
-                <li data-bs-toggle="modal" data-bs-target="#modalEarn">earn</li>  
                 <li data-bs-toggle="modal" data-bs-target="#modalLearn">learn</li>
-                <li class="nav-item"><a href="#" class="nav-link open-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">connect wallet</a></li>
+                <li data-bs-toggle="modal" data-bs-target="#modalEarn">earn</li>  
+                <li data-bs-toggle="modal" data-bs-target="#modalConnectWallet">connect wallet</li>
                 <div class="form-check form-switch">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
                     <label class="form-check-label" for="flexSwitchCheckDefault"></label>
@@ -115,10 +115,25 @@
             </div>
             </div>
         </div>
+        <!-- Modal Connect Wallet button form Navbar/ Bootstrap-->
+        <div class="modal fade custom-modal" id="modalConnectWallet" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Your Crypto Wallet</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    A cryptocurrency wallet stores digital assets securely. In BerrySwap, it's used to connect, trade tokens, provide liquidity, stake for rewards, and interact with decentralized finance (DeFi).
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
     <!-- Footer-->   
-        <footer></footer>  
-        Usually, a project like Berr
-        
+        <footer></footer>
  <!-- Bootstrap JS link-->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
  <script type="module" src="script2.js"></script> HTML
