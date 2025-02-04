@@ -102,7 +102,7 @@ Key user stories include:
 
 ## Deployment
 
-- [View Deployment Instructions](doc/deployment.md)
+- [View Deployment Instructions](doc/deployment/deployment.md)
 
 ### Steps Taken:
 1. Hosted the project on **GitHub Pages**.
