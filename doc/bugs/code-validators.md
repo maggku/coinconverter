@@ -17,6 +17,8 @@
 
 **HTML**
 
+![HTML validator errors image 3](../../images/noerrors-html.png)
+
 
 **CSS**
 ![HTML validator errors image 3](../../images/noerrors-css.png)
