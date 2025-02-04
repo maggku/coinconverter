@@ -13,6 +13,9 @@ A dedicated input field lets users specify the amount they wish to convert.
 ### Exchange Rate Display  
 Real-time exchange rates are dynamically displayed (e.g., 1 BTC = X USD), ensuring users have accurate and up-to-date information.  
 
+2. **Dark Mode**: 
+Users can switch between light/dark mode with a toggle .
+
 ---
 
 ## Table of Contents
@@ -99,7 +102,7 @@ Key user stories include:
 
 ## Deployment
 
-- [View Deployment Instructions](./images/wireframes.png.)
+- [View Deployment Instructions](doc/deployment.md)
 
 ### Steps Taken:
 1. Hosted the project on **GitHub Pages**.
@@ -113,8 +116,7 @@ Live site: [Cryptocurrency Coin Converter](https://your-github-username.github.i
 ## Future Enhancements
 
 1. **Add More Cryptocurrencies**: Expand the list of available currencies for conversion.
-2. **Dark Mode**: Implement a toggle for light/dark mode.
-3. **Graphical Data Representation**: Show currency trends using charts.
+2. **Graphical Data Representation**: Show currency trends using charts.
 
 ---
 

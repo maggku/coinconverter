@@ -148,7 +148,7 @@ label {
     width: 274px;
     padding: 12px 20px 13px 20px;
     margin-right: 25px;
-    align-items: left;
+    align-items: flex-start;
     border-radius: 24px;
     border: 0px;
     background: #EEEAF4;
