@@ -67,9 +67,9 @@ Key user stories include:
 
 ---
 
-## Final Design
+## Design
 
-- [View the Design Details](./design.md)
+- [View the Design Details](./images/final-design.png)
 
 ### Key Design Choices:
 1. **Minimalist Layout**: Focus on functionality with clean, modern aesthetics.
