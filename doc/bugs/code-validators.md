@@ -12,8 +12,11 @@
 
 **Java Script**
 
+![HTML validator errors image 3](../../images/javascript-error1.png)
+![HTML validator errors image 3](../../images/javascript-error2.png)
 
-## After Errors are Fixed
+
+## After - No Errors
 
 **HTML**
 
@@ -23,4 +26,4 @@
 **CSS**
 ![HTML validator errors image 3](../../images/noerrors-css.png)
 
-**Java Script**
+
