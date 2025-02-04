@@ -13,7 +13,7 @@ A dedicated input field lets users specify the amount they wish to convert.
 ### Exchange Rate Display  
 Real-time exchange rates are dynamically displayed (e.g., 1 BTC = X USD), ensuring users have accurate and up-to-date information.  
 
-2. **Dark Mode**: 
+### Dark Mode 
 Users can switch between light/dark mode with a toggle .
 
 ---
