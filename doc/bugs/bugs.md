@@ -1,29 +1,40 @@
-## Errors
+# Errors
 
-**HTML**
+## HTML - Errors
 
 ![HTML validator errors image 1](../../images/html-errors-1.png)
 ![HTML validator errors image 2](../../images/html-errors-2.png)
 ![HTML validator errors image 3](../../images/html-errors-3.png)
 
-**CSS**
+## HTML After - No Errors
+
+![HTML validator errors image 3](../../images/noerrors-html.png)
+
+## CSS - Errors
 
 ![HTML validator errors image 3](../../images/css-errors-1.png)
 
-**Java Script**
+## CSS After - No Errors
+
+![HTML validator errors image 3](../../images/noerrors-css.png)
+
+
+## Java Script - Errors
 
 ![HTML validator errors image 3](../../images/javascript-error1.png)
 ![HTML validator errors image 3](../../images/javascript-error2.png)
 
+## Other - Nav bar - font not vertically centered.
 
-## After - No Errors
-
-**HTML**
-
-![HTML validator errors image 3](../../images/noerrors-html.png)
+![HTML validator errors image 3](../../images/bug-navbar-1.png)
 
 
-**CSS**
-![HTML validator errors image 3](../../images/noerrors-css.png)
+## Other - Nav bar - fixed
+
+![HTML validator errors image 3](../../images/bug-navbar-2.png)
+
+![HTML validator errors image 3](../../images/bug-navbar-3.png)
+
+
 
 
