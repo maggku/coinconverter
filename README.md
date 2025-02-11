@@ -1,6 +1,12 @@
 # Berry Swap     ![Logo](images/coinconverter-favicon2.png)
 
-Berry Swap is a cryptocurrency converter that lets you seamlessly exchange crypto altcoins and traditional currencies like **USD**, **JPY**, and **GBP**.BerrySwap is a project designed for beginners in cryptocurrency and blockchain. Experienced users usually buy tokens at the best price on crypto exchanges. If BerrySwap were to replicate projects like PancakeSwap, it would allow quick token swaps, which is important in the fast-moving and risky crypto market. For this project, I chose a simpler approach, letting users trade real currency for popular cryptocurrencies like Bitcoin (BTC) and Ethereum (ETH). This makes it easier for newcomers to get started in crypto without dealing with complex exchanges.
+Berry Swap is a cryptocurrency converter that lets you seamlessly exchange crypto altcoins and traditional currencies like **USD**, **JPY**, and **GBP** and then buy it on the app.  
+
+BerrySwap is a project designed for beginners in cryptocurrency and blockchain. Experienced users usually buy tokens at the best price on crypto exchanges ( more advanced tools ). If BerrySwap were to replicate projects like PancakeSwap ( a more of a blockchain native project ), it would allow quick token swaps, which is important in the fast-moving and risky crypto market. 
+
+I made a project that looks like a native crypto project but is not one.
+
+For this project, I chose a simpler approach, letting users trade real currency with popular cryptocurrencies like Bitcoin (BTC) and Ethereum (ETH). This makes it easier for newcomers to get started in crypto without dealing with complex exchanges.
 
 ## Key Components  
 
@@ -35,7 +41,7 @@ Users can switch between light/dark mode with a toggle .
 
 ## User Stories
 
-- [View the User Stories](./user-stories.md)
+- [View the User Stories](doc/user-stories/user-stories.md)
 
 Key user stories include:
 1. As a user, I want to input a cryptocurrency amount and see its equivalent in fiat currency.
@@ -81,7 +87,7 @@ Key user stories include:
 
 ## Testing
 
-- [View Detailed Testing Report](./tests.md)
+- [View Detailed Testing Report](doc/testing/manual-testing-table.md)
 
 ### Summary of Tests:
 1. **Functional Testing**: Verified accurate currency conversion calculations.
@@ -92,7 +98,7 @@ Key user stories include:
 
 ## Known Bugs
 
-- [View the Bug Tracker](./bugs.md)
+- [View the Bug Tracker](doc/bugs/bugs.md)
 
 ### Current Issues:
 1. Occasionally, conversion rates fail to load due to API rate limits.

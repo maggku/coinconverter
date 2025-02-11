@@ -284,7 +284,7 @@ body.dark-mode button {
 /* Specific text styling inside dark mode */
 body.dark-mode .converter-container input,
 body.dark-mode label {
-    color: #EEEAF4; 
+    color: #1f1b24; 
 }
 
 body.dark-mode .converter-container, 
@@ -311,6 +311,12 @@ body.dark-mode .form-check-input {
 body.dark-mode .berry-font {
     color: #DC50BD;
 }
+
+/* Custom border radius for modal */
+body.dark-mode .modal {
+    --bs-modal-border-radius: 1.5rem;
+    color: #1f1b24;
+ }
 
 
 
