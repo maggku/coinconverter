@@ -264,6 +264,9 @@ footer{
 
 }
 
+/* Media queries for mobile devives*/
+
+
 /* DARK MODE */
 body.dark-mode {
     background: linear-gradient(180deg, #6b1c72 0%, #010000 100%);
