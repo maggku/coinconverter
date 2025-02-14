@@ -21,8 +21,7 @@
 
 ## Java Script - Errors
 
-![HTML validator errors image 3](../../images/javascript-error1.png)
-![HTML validator errors image 3](../../images/javascript-error2.png)
+![HTML validator errors image 3](../../images/jshint.png)
 
 ## Other - Nav bar - font not vertically centered.
 
