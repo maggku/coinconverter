@@ -277,6 +277,11 @@ footer{
     z-index: 1050; /* Bootstrap’s z-index for dropdowns */
   }
 
+.nav-link.dropdown-toggle::after {
+    display: none !important;
+}
+
+
 
 /* DARK MODE */
 body.dark-mode {
