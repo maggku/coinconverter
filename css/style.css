@@ -267,9 +267,15 @@ footer{
 /* Media queries for mobile devives*/
 @media (max-width: 768px) {
     #menu {
-        display: none;
+         display: none;
+
     }
+
 }
+
+.dropdown-menu {
+    z-index: 1050; /* Bootstrap’s z-index for dropdowns */
+  }
 
 
 /* DARK MODE */
