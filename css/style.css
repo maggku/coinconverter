@@ -265,6 +265,11 @@ footer{
 }
 
 /* Media queries for mobile devives*/
+@media (max-width: 768px) {
+    #menu {
+        display: none;
+    }
+}
 
 
 /* DARK MODE */
