@@ -38,6 +38,8 @@ nav p {
     margin-bottom: 0px;
 }
 
+
+
 #logo {
     margin-bottom: 5px;
     line-height: 76px;
@@ -74,8 +76,9 @@ li {
 
  }
 
-
-
+ #burger {
+    display: none;
+ }
 
 .form-check {
     margin-top: 25px;
@@ -268,9 +271,11 @@ footer{
 @media (max-width: 768px) {
     #menu {
          display: none;
-
     }
-
+    #burger {
+        display:block;
+        cursor:pointer;
+     }
 }
 
 .dropdown-menu {
@@ -278,7 +283,7 @@ footer{
   }
 
 .nav-link.dropdown-toggle::after {
-    display: none !important;
+    display: none;
 }
 
 
