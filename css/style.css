@@ -297,6 +297,55 @@ footer{
     .body.dark-mode .form-check-input:checked {
         background-color: #543c4f;
     }
+
+    .converter-container {
+        width: 326px;
+        height: 456px;
+        flex-shrink: 0;
+        margin: 120px auto; 
+        padding: 24px;
+        border-radius: 24px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    
+    .converter-group {
+        flex-direction: column; /* Stack inputs vertically */
+        gap: 15px; /* Space between inputs */
+    }
+    
+    #from-amount,
+    #to-amount,
+    #from-token,
+    #to-token {
+        width: 274px;
+        padding: 12px 20px 13px 20px; 
+        margin-right: 0;
+    }
+    
+    /* Transfer icon is not visible on mobile */
+    .transfer-icon {
+        display: none;
+        margin: 16px 0;
+    }
+    
+    /* Converter rows for mobile - */
+    .converter-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    
+    /* Labels for mobile */
+    .converter-row label {
+        margin-bottom: 8px;
+    }
+    
+    /* Styles for buy button for mobile */
+    #convert-button {
+        margin-top: 32px;
+    }
     
     
 }
