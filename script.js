@@ -1,13 +1,12 @@
 // Dark-mode Bootstrap toggle switch icon
 const toggleSwitch = document.getElementById("flexSwitchCheckDefault");
 
-// Function to change to commit  dark mode
+// Function to change to dark mode
 function toggleDarkMode() {
-    console.log("Toggling dark mode...");// Chcking in console if the function is called correctly
     document.body.classList.toggle("dark-mode");
 }
 
-// Check if toggle switch is clicked
+// Checking if toggle switch is clicked
 toggleSwitch.addEventListener("change", toggleDarkMode);
 
 
