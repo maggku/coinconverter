@@ -9,10 +9,12 @@ toggleSwitches.forEach(toggle => {
 // Function to change to dark mode
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
+    
+    // Making sure that both Mobile and Desktop toggles are in sync.
+    toggleSwitches.forEach(toggle => {
+        toggle.checked = document.body.classList.contains("dark-mode");
+    });
 }
-
-//Making sure that both Desktop and Mobile are checked or unchecked at the same time.
-    toggle.checked = document.body.classList.contains("dark-mode");
 
 
 
