@@ -7,6 +7,9 @@
 ![Final view image 3](../../images/berryswap3.png)
 ![Final view image 4](../../images/berryswap4.png)
 ![Final view image 5](../../images/berryswap5.png)
+![Final view image 3](../../images/berryswap6.png)
+![Final view image 4](../../images/berryswap7.png)
+![Final view image 5](../../images/berryswap8.png)
 
 **Dark Mode**
 
