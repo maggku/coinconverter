@@ -30,9 +30,26 @@
 
 ## Other - Nav bar - fixed
 
+Adding an extra top margin to the ul
+
 ![HTML validator errors image 3](../../images/bug-navbar-2.png)
 
 ![HTML validator errors image 3](../../images/bug-navbar-3.png)
+
+
+
+
+
+## Other - dark mode working on the mobile version of the design but not desktop 
+
+![HTML validator errors image 3](../../images/bugs1.png)
+
+![HTML validator errors image 3](../../images/bugs2.png)
+
+![HTML validator errors image 3](../../images/bugs3.png)
+
+![HTML validator errors image 3](../../images/bugs4.png)
+
 
 
 

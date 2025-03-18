@@ -94,6 +94,8 @@ li {
     border-color: #dc50bd; /* To match the background */
 }
 
+
+
 /* Custom border radius for modal */
 .modal {
     --bs-modal-border-radius: 1.5rem;
@@ -284,6 +286,19 @@ footer{
          --bs-dropdown-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         
         }
+
+    
+
+    .form-check-input:focus {
+        box-shadow: none; 
+        }
+
+        
+    .body.dark-mode .form-check-input:checked {
+        background-color: #543c4f;
+    }
+    
+    
 }
 
 .dropdown-menu {
