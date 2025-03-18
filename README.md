@@ -82,6 +82,12 @@ Key user stories include:
 2. **Responsive Design**: Works seamlessly across devices (mobile, tablet, desktop).
 3. **Color Palette**: Vibrant colors inspired by popular cryptocurrency themes.
 
+---
+
+## Final View
+
+- [Final View](doc/final-view/final-view.md)
+
 
 ---
 
