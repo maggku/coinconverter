@@ -1,13 +1,17 @@
 // Toggle switch icons for both Mobile and Desktop
 const toggleSwitches = document.querySelectorAll(".form-check-input");
 
+// Checking if toggle switch is clicked - event listeners for each toggle
+toggleSwitches.forEach(toggle => {
+    toggle.addEventListener("change", toggleDarkMode);
+});
+
 // Function to change to dark mode
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
 }
 
-// Checking if toggle switch is clicked
-toggleSwitch.addEventListener("change", toggleDarkMode);
+
 
 
 const fromToken = document.getElementById("from-token");
