@@ -11,6 +11,9 @@ function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
 }
 
+//Making sure that both Desktop and Mobile are checked or unchecked at the same time.
+    toggle.checked = document.body.classList.contains("dark-mode");
+
 
 
 
