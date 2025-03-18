@@ -127,8 +127,8 @@ Live site: [Cryptocurrency Coin Converter](https://your-github-username.github.i
 
 ## Future Enhancements
 
-1. **Add More Cryptocurrencies**: Expand the list of available currencies for conversion.
-2. **Graphical Data Representation**: Show currency trends using charts.
+1. **Add More Cryptocurrencies**: Expanding the list of available currencies for conversion.
+2. **Graphical Data Representation**: Showing currency trends using charts.
 
 ---
 
