@@ -1,5 +1,5 @@
-// Dark-mode Bootstrap toggle switch icon
-const toggleSwitch = document.getElementById("flexSwitchCheckDefault");
+// Toggle switch icons for both Mobile and Desktop
+const toggleSwitches = document.querySelectorAll(".form-check-input");
 
 // Function to change to dark mode
 function toggleDarkMode() {
