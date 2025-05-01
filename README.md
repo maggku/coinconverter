@@ -32,7 +32,7 @@ Users can switch between light/dark mode with a toggle .
 4. [Design](#design)
 5. [Final View](#final-view)
 6. [Testing](#testing)
-7. [Known Bugs](#known-bugs)
+7. [Code Validation and Known Bugs](#code-validation-and-known-bugs)
 8. [Deployment](#deployment)
 9. [Future Enhancements](#future-enhancements)
 10. [Acknowledgments](#acknowledgments)
@@ -102,9 +102,9 @@ Key user stories include:
 
 ---
 
-## Known Bugs
+## Code Validation and Known Bugs
 
-- [View the Bug Tracker](doc/bugs/bugs.md)
+- [View Code Validation](doc/bugs/bugs.md)
 
 ### Current Issues:
 1. Occasionally, conversion rates fail to load due to API rate limits.
