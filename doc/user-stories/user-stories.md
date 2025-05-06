@@ -87,7 +87,9 @@ Berry Swap caters primarily to cryptocurrency beginners, particularly younger in
       - Text alternatives for all images
       - Keyboard navigation support
       - Screen reader compatibility
- 
+
+
+
  
  # Key user stories include
 
